@@ -1,17 +1,18 @@
 {
   "name": "practice-cli",
   "version": "1.0.0",
-  "bin": "./index.js",
+  "bin": "./dist/index.js",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.7.4",
     "typescript": "^5.6.2"
   },
   "dependencies": {
